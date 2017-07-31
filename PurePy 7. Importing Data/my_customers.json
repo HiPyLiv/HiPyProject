@@ -1,0 +1,17 @@
+{
+  "name": "Sam Cassidy",
+  "address": "19 Notareal Avenue, Liverpool",
+  "postcode": "L00 9JR",
+  "purchase-history": [
+    [
+      "inflatable pet",
+      3,
+      "05.09.2016"
+    ],
+    [
+      "disposable widget",
+      60,
+      "01.01.2017"
+    ]
+  ]
+}
