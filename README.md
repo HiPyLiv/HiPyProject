@@ -4,7 +4,7 @@
 
 ### Two collections
 
-We have two series of resources here: Python, Data, and You; and PurePy. Absolute beginners should start with the [BASICS] section of PD&Y if you want to fast-track to data-driven applications, or from the beginning of PurePy if you're more interested in general programming concepts. Both series combine written resources, worked example videos, and a sprinkling of exercises and challenges.
+We have two series of resources here: Python, Data, and You; and PurePy. Absolute beginners should start with *either* the [BASICS] section of PD&Y if you want to fast-track to data-driven applications, or from the beginning of PurePy if you're more interested in general programming concepts. Both series combine written resources, worked example videos, and a sprinkling of exercises and challenges.
 
 Although github has a Jupyter notebook viewer, it's not great. They are not interactive. Moreover, the YouTube videos don't display, similarly some of the text formatting doesn't quite work. We recommend downloading this github repo using the button at the top right and viewing them in Juypter Notebook (installed with Anaconda) locally.
 
