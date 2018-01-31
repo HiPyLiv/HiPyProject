@@ -1,0 +1,7 @@
+pwd -- prints the current directory (print working directory)
+mkdir -- create a new directory e.g mkdir my-directory
+ls -- view the contents of the current directory
+cd -- change the current directory e.g cd my-directory (note cd .. goes to the directory "above")
+rm -- remove a file e.g rm my-file, (note to remove a directory use rm -r)
+python -- run python!
+nano -- a text editor for the command line
