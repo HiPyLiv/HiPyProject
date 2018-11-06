@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Heebo:100,200,400,600,900");
+body, .event-box {
+  font-family: 'Heebo', sans-serif; }
+
+.navbar {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400; }
+
+h1.big-title {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 900;
+  font-size: 3em; }
+
+h1.main-title {
+  font-size: 4em; }
+
+p.event a {
+  color: #f4f4f4; }
+
+p.event {
+  font-size: 1em; }
