@@ -163,11 +163,17 @@ span.page-info {
 
 .btn-primary {
   font-family: 'Heebo', sans-serif;
-  font-size: 1.2em;
-  background-color: #ffe9d3;
+  color: #f4f4f4;
+  background-color: #333;
   margin-top: 20px;
   margin-bottom: 20px;
-  border-color: #ffe9d3; }
+  border-color: #ffe9d3;
+  border-radius: 5px;
+  padding: 10px;
+  -webkit-animation: btnWiggle 5s infinite;
+  -moz-animation: btnWiggle 5s infinite;
+  -o-animation: btnWiggle 5s infinite;
+  animation: btnWiggle 5s infinite; }
 
 .programme-btn:focus {
   outline-color: blue !important; }
@@ -217,12 +223,12 @@ tr.write {
 table#sunday, table#saturday {
   display: none; }
 
-#fixedbtn-up, #fixedbtn-reg, #fixedbtn-twitter, #fixedbtn-facebook, #fixedbtn-instagram, .nav-bottom {
+#fixedbtn-up, #fixedbtn-reg, #fixedbtn-twitter, #fixedbtn-facebook, #fixedbtn-instagram, #fixedbtn-slack, #fixedbtn-github, .nav-bottom {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #ffe9d3;
-  color: #fff;
+  background-color: #333;
+  color: #f4f4f4;
   font-size: 0.9em;
   padding: 10px 10px;
   width: 50px;
@@ -238,17 +244,22 @@ table#sunday, table#saturday {
   top: 220px;
   display: block; }
 
-#fixedbtn-facebook {
+#fixedbtn-instagram {
   right: 20px;
   top: 285px;
   display: block; }
 
-#fixedbtn-instagram {
+#fixedbtn-slack {
   right: 20px;
   top: 350px;
   display: block; }
 
-#fixedbtn-twitter svg, #fixedbtn-facebook svg, #fixedbtn-instagram svg {
+#fixedbtn-github {
+  right: 20px;
+  top: 415px;
+  display: block; }
+
+#fixedbtn-twitter svg, #fixedbtn-facebook, #fixedbtn-slack svg, #fixedbtn-github svg, #fixedbtn-instagram svg {
   padding-top: 5px;
   margin-top: 2px; }
 
@@ -327,7 +338,7 @@ table#sunday, table#saturday {
 .team-box img {
   border-radius: 150px; }
 
-form#contact input, textarea, select {
+form#contact input, textarea, select, btn-primary {
   width: 100%;
   max-width: 600px;
   margin: 10px 0;
