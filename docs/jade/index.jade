@@ -3,7 +3,7 @@ html(lang='en')
   head
     meta(http-equiv='content-type', content='text/html; charset=UTF-8')
     meta(charset='utf-8')
-    title CDTPy - Supercharge Your Cohort
+    title HiPy - Come All. Learn Code.
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
     meta(name='description', content='Bespoke Python coding workshops for Centres for Doctoral Training')
     link(href='//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css', rel='stylesheet')
@@ -54,6 +54,12 @@ html(lang='en')
           .text-left
             include why.jade
 
+    .container#contact.full-height.vertical-center
+      .row
+        .col.col-lg-offset-1.col-lg-10
+          .text-left
+            include contact.jade
+
 
 
 
@@ -75,10 +81,10 @@ html(lang='en')
     a(href="https://twitter.com/hipyliv" target="_blank")
       #fixedbtn-twitter
         .i.fab.fa-twitter.fa-2x
-    a(href="https://instagram.com/hipyliv" target="_blank")
+    a(href="https://www.instagram.com/hipyliv/" target="_blank")
       #fixedbtn-instagram
         .i.fab.fa-instagram.fa-2x
-    a(href="https://instagram.com/hipyliv" target="_blank")
+    a(href="https://hipyliv.slack.com/signup" target="_blank")
       #fixedbtn-slack
         .i.fab.fa-slack-hash.fa-2x
     a(href="https://github.com/HiPyLiv/HiPyProject" target="_blank")
@@ -88,16 +94,25 @@ html(lang='en')
 
 
     .nav-bottom
-        a(href="https://twitter.com/hipyliv")
+        a(href="https://twitter.com/hipyliv" target="_blank")
           .nav-box
             .i.fab.fa-twitter
 
-        a(href="https://instagram.com/hipyliv")
+        a(href="https://instagram.com/hipyliv" target="_blank")
           .nav-box
             .i.fab.fa-instagram
 
+        a(href="https://hipyliv.slack.com/signup" target="_blank")
+          .nav-box
+            .i.fab.fa-slack
+
+        a(href="https://github.com/HiPyLiv/HiPyProject" target="_blank")
+          .nav-box
+            .i.fab.fa-github
+
         a(href="#contact")
-          .nav-box.register  Contact Us
+          .nav-box
+            .i.fa.fa-envelope
 
         a(href="#main")
           .nav-box

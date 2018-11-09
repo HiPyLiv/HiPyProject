@@ -420,6 +420,11 @@ table#sunday, table#saturday {
 
 //CONTACT FORM
 
+#contact {
+  width: 100%;
+  background-color: $light-color;
+}
+
 form#contact input, textarea, select, btn-primary {
   width: 100%;
   max-width: 600px;
@@ -500,7 +505,7 @@ form#contact input.btn.btn-primary {
   .btn-primary {
     font-size: 1.0em;
   }
-  #fixedbtn-up, #fixedbtn-reg, #fixedbtn-twitter, #fixedbtn-facebook, #fixedbtn-instagram {
+  #fixedbtn-up, #fixedbtn-reg, #fixedbtn-twitter, #fixedbtn-facebook, #fixedbtn-instagram, #fixedbtn-slack, #fixedbtn-github {
     display: none;
   }
   .nav-bottom {
