@@ -488,9 +488,16 @@ form#contact input.btn.btn-primary {
   div.left{
     display: none;
   }
-  #main {
-    margin-top: 30px;
+  a#start {
+    display: none;
   }
+  div#footer {
+    background-color: $dark-color;
+  }
+  #main, #why, #contact {
+    padding-top: 30px;
+  }
+
   .event-info h3 {
     margin-bottom: 0px;
     font-size: 1.3em;
