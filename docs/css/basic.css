@@ -241,7 +241,7 @@ table#sunday, table#saturday {
 
 #fixedbtn-twitter {
   right: 20px;
-  top: 220px;
+  bottom: 140px;
   display: block; }
 
 #fixedbtn-instagram {
@@ -256,7 +256,7 @@ table#sunday, table#saturday {
 
 #fixedbtn-github {
   right: 20px;
-  top: 415px;
+  bottom: 80px;
   display: block; }
 
 #fixedbtn-twitter svg, #fixedbtn-facebook, #fixedbtn-slack svg, #fixedbtn-github svg, #fixedbtn-instagram svg {
@@ -390,7 +390,10 @@ form#contact input.btn.btn-primary {
   a#start {
     display: none; }
   div#footer {
-    background-color: #333; }
+    background-color: #fff;
+    color: #333; }
+  img#logo {
+    width: 100px; }
   #main, #why, #contact {
     padding-top: 30px; }
   .event-info h3 {

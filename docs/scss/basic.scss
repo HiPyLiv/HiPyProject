@@ -302,7 +302,7 @@ table#sunday, table#saturday {
 
 #fixedbtn-twitter {
   right: 20px;
-  top: 220px;
+  bottom: 140px;
   display: block;
 }
 
@@ -320,7 +320,7 @@ table#sunday, table#saturday {
 
 #fixedbtn-github {
   right: 20px;
-  top: 415px;
+  bottom: 80px;
   display: block;
 }
 
@@ -331,7 +331,6 @@ table#sunday, table#saturday {
 
 .inner-fixedbtn-up, .inner-fixedbtn-reg, .inner-fixedbtn-twitter, .inner-fixedbtn-facebook, .inner-fixedbtn-instagram {
   line-height: 50px;
-
 }
 
 #fixedbtn-reg {
@@ -492,7 +491,12 @@ form#contact input.btn.btn-primary {
     display: none;
   }
   div#footer {
-    background-color: $dark-color;
+    background-color: #fff;
+    color: $dark-color;
+  }
+
+  img#logo {
+    width: 100px;
   }
   #main, #why, #contact {
     padding-top: 30px;
