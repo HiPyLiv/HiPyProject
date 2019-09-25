@@ -22,3 +22,14 @@ p.event {
 
 p.resource {
   color: #333; }
+
+.btn-primary {
+  margin: 5px;
+  width: 300px;
+  font-size: 1.5em; }
+
+.btn-primary:hover {
+  background-color: #6ca5f1; }
+
+a.btn-primary {
+  text-decoration: none; }

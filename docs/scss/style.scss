@@ -28,3 +28,18 @@ p.event {
 p.resource {
   color: $dark-color
 }
+
+.btn-primary {
+  margin: 5px;
+
+  width: 300px;
+  font-size: 1.5em;
+}
+
+.btn-primary:hover {
+  background-color: $highlight-hover
+}
+
+a.btn-primary {
+  text-decoration: none;
+}
