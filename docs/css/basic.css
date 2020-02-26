@@ -179,8 +179,8 @@ span.page-info {
   outline-color: blue !important; }
 
 .btn-primary:hover {
-  background-color: #6ca5f1;
-  border-color: #6ca5f1; }
+  background-color: #da6314;
+  border-color: #da6314; }
 
 .tg {
   border-collapse: collapse;
@@ -223,7 +223,7 @@ tr.write {
 table#sunday, table#saturday {
   display: none; }
 
-#fixedbtn-up, #fixedbtn-reg, #fixedbtn-twitter, #fixedbtn-facebook, #fixedbtn-instagram, #fixedbtn-slack, #fixedbtn-github, .nav-bottom {
+#fixedbtn-up, #fixedbtn-reg, #fixedbtn-twitter, #fixedbtn-facebook, #fixedbtn-instagram, #fixedbtn-slack, #fixedbtn-github, #fixedbtn-teams .nav-bottom {
   position: fixed;
   bottom: 20px;
   right: 20px;
@@ -249,7 +249,7 @@ table#sunday, table#saturday {
   top: 285px;
   display: block; }
 
-#fixedbtn-slack {
+#fixedbtn-teams {
   right: 20px;
   top: 350px;
   display: block; }
