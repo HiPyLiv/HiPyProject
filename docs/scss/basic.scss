@@ -281,7 +281,7 @@ table#sunday, table#saturday {
   display: none;
 }
 
-#fixedbtn-up, #fixedbtn-reg, #fixedbtn-twitter, #fixedbtn-facebook, #fixedbtn-instagram, #fixedbtn-slack, #fixedbtn-github, .nav-bottom {
+#fixedbtn-up, #fixedbtn-reg, #fixedbtn-twitter, #fixedbtn-facebook, #fixedbtn-instagram, #fixedbtn-slack, #fixedbtn-github, #fixedbtn-teams .nav-bottom {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -298,8 +298,6 @@ table#sunday, table#saturday {
     display: none;
 }
 
-
-
 #fixedbtn-twitter {
   right: 20px;
   bottom: 140px;
@@ -312,7 +310,7 @@ table#sunday, table#saturday {
   display: block;
 }
 
-#fixedbtn-slack {
+#fixedbtn-teams {
   right: 20px;
   top: 350px;
   display: block;
