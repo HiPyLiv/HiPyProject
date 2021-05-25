@@ -1,8 +1,0 @@
-// Functions
-@function set-text-color($bg-color){
-  @if(lightness($bg-color) > 50) {
-    @return #000;
-  } @else {
-    @return #fff;
-  }
-}
