@@ -1,0 +1,9 @@
+.resource-card {
+    margin: 10px 0px;
+    height: calc(100% - 20px);
+}
+
+.resource-button {
+    display: flex;
+    align-items: flex-end;
+}
