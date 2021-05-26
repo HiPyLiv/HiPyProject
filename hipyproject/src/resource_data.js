@@ -105,7 +105,8 @@ const resource_data = {
                 "Object Orientated Programming 2": {
                     "id": 12,
                     "title": "Object Orientated Programming Part 2",
-                    "description": "OOP is a huge topic, so we had to split it over two guides. Here we finish off looking at what makes OOP so great!"
+                    "description": "OOP is a huge topic, so we had to split it over two guides. Here we finish off looking at what makes OOP so great!",
+                    "link": ""
                 }
             }
         },
@@ -114,7 +115,30 @@ const resource_data = {
             "name": "Visualisation",
             "description": "A look at some of the data visualisation options within Python to proudly display your findings.",
             "cards": {
-
+                "Deeper Look at matplotlib": {
+                    "id": 0,
+                    "title": "A Deeper Look at matplotlib",
+                    "description": "We take a deeper look at the grandfather Python visualisation library: matplotlib",
+                    "link": ""
+                },
+                "Pandas Builtin": {
+                    "id": 1,
+                    "title": "Built-in pandas Plotting",
+                    "description": "Sometimes we want to make a super quick plot without doing a lot of work. Enter pandas' plotting functionality!",
+                    "link": ""
+                },
+                "Seaborn": {
+                    "id": 2,
+                    "title": "Statistical Plotting with seaborn",
+                    "description": "seaborn allows super suave statistical plots in very little code. Here we look at how to get neat plots from seaborn.",
+                    "link": ""
+                },
+                "Bokeh": {
+                    "id": 3,
+                    "title": "Interactive Plotting with Bokeh",
+                    "description": "We look at how to make interactive, dynamic plots using bokeh - a library that translates Python code into d3.js visualisations",
+                    "link": ""
+                }
             }
         },
         "Sourcing": {
@@ -122,7 +146,18 @@ const resource_data = {
             "name": "Data Sourcing",
             "description": "A series of different tutorials on how to obtain data from various sources",
             "cards": {
-
+                "Data from Files": {
+                    "id": 0,
+                    "title": "Sourcing Data from Files",
+                    "description": "We look at some of the neat ways Python can help us import data from common file types, by using vanilla Python as well as libraries.",
+                    "link": ""
+                },
+                "Data from Web": {
+                    "id": 1,
+                    "title": "Sourcing Data from the Web",
+                    "description": "Sometimes we don't have the data at hand, and want to turn to the internet to gather some. We look at some neat ways to fetch data from internet sources.",
+                    "link": ""
+                }
             }
         },
         "Statistics": {
@@ -130,7 +165,30 @@ const resource_data = {
             "name": "Statistics",
             "description": "A look at traditional statistical analysis using Python",
             "cards": {
-
+                "Intro": {
+                    "id": 0,
+                    "title": "Introduction to Statistical Analysis in Python",
+                    "description": "A slow and steady introduction to doing statistics using Python, and the differences between statistics and machine learning.",
+                    "link": ""
+                },
+                "Hypothesis Testing": {
+                    "id": 1,
+                    "title": "Hypothesis Testing in Python",
+                    "description": "We look at how to perform perhaps the most common statistical query in Python - the hypothesis test, using scipy.stats.",
+                    "link": ""
+                },
+                "ANOVA": {
+                    "id": 2,
+                    "title": "ANOVA models in Python",
+                    "description": "We look at more complex statistical models, developing our understanding of scipy.stats and introducing a new library: statsmodels",
+                    "link": ""
+                },
+                "Regression": {
+                    "id": 3,
+                    "title": "Regression models in Python",
+                    "description": "A very common statistical problem is finding a linear trend using known data. We learn how to do this using Python, scipy.stats and statsmodels.",
+                    "link": ""
+                }
             }
         },
         "Machine Learning": {
@@ -138,7 +196,36 @@ const resource_data = {
             "name": "Machine Learning",
             "description": "A gentle introduction into the world of machine learning. Train and test models to build programs that save the world!",
             "cards": {
-
+                "Intro": {
+                    "id": 0,
+                    "title": "Introduction to Machine Learning in Python",
+                    "description": "We look at what we need to know to start our machine learning journey in Python, and how these methods differ from statistical ones.",
+                    "link": ""
+                },
+                "K Means Clustering": {
+                    "id": 1,
+                    "title": "K Means Clustering",
+                    "description": "K Means Clustering is a very common clustering algorithm for grouping unlabelled data. Here we look at how it works and some applications",
+                    "link": ""
+                },
+                "K Nearest Neighbours": {
+                    "id": 2,
+                    "title": "K Nearest Neighbours",
+                    "description": "The K Nearest Neighbours algorithm is a super simple algorithm for classification of data. We look at how it works, how to use it and how to choose a value of k.",
+                    "link": ""
+                },
+                "Decision Trees": {
+                    "id": 3,
+                    "title": "Decision Trees",
+                    "description": "Decision trees are an intepretable model that has a unique classification footprint. Here we look at what they are and how to use them!",
+                    "link": ""
+                },
+                "SVM": {
+                    "id": 4,
+                    "title": "Support Vector Machines",
+                    "description": "Support Vector Machines are classification models that split our feature space using a hyperplane. What does any of that mean, and how can we use it? We take a look!",
+                    "link": ""
+                }
             }
         }
     }
