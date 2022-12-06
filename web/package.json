@@ -9,7 +9,7 @@
   "author": "Brad Traversy",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.18.13",
+    "browser-sync": "^2.27.10",
     "gulp": "^3.9.1",
     "gulp-jade": "^1.1.0",
     "gulp-sass": "^3.1.0"
